@@ -1,0 +1,36 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 10vh;
+  background: #494f52;
+  color: white;
+  list-style: none;
+}
+
+.navbar--links {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.titulo-principal {
+  color: red;
+}
+
+.subtitulo {
+  color: green;
+}
+/*# sourceMappingURL=App.css.map */
