@@ -1,11 +1,19 @@
+import NavItem from '../Home/NavItem/NavItem';
+import { FaShoppingBasket } from "react-icons/fa";
+
+
 function Navbar() {
     return (
         <nav className="navbar">
             <ul className="navbar--links">
-                <li>Inicio</li>
-                <li>Nosotros</li>
-                <li>Nuestros Blend</li>
-                <li>Tienda</li>
+                <NavItem text="Inicio" url="www.google.com" />
+                <NavItem text="Nosotros" />
+                <NavItem text="Nuestros Blends"  />
+                <NavItem text="Tienda" />
+                <li>
+                    <FaShoppingBasket />
+                </li>
+                
             </ul>
         </nav>
     )
