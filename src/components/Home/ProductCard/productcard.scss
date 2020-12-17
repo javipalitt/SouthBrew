@@ -1,0 +1,11 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &--container{
+        flex: 0 1 calc(25% - 1em);
+        box-sizing: border-box;
+        margin: 1rem .25em;
+        text-align: center;
+    }
+    }
