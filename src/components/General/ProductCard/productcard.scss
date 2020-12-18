@@ -1,5 +1,7 @@
 .flex{
     display: flex;
+    flex-direction: row;
+    flex: 1;
     flex-wrap: wrap;
     justify-content: space-between;
     &--container{
@@ -7,5 +9,6 @@
         box-sizing: border-box;
         margin: 1rem .25em;
         text-align: center;
+        
     }
     }

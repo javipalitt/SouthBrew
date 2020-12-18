@@ -1,10 +1,10 @@
-import './Modal.scss'
+import '../../General/Modal/Modal.scss'
 
 const Modal = ({children}) => {
     return (
         <div className ="overlay" id="modal">
             <div className="modal">
-                <a href="#" className="cerrar">X</a>
+                <a href="/#" className="cerrar">X</a>
                 
 
                 {children} 
